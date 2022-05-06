@@ -57,7 +57,7 @@ body {
 .uper-bar {
   position: relative;
   width: 375px;
-   display: flex;
+  display: flex;
   justify-content: space-between;
   height: 44px;
 }
@@ -167,7 +167,7 @@ ul {
   top: 120px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-   font-weight: 400;
+  font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -179,7 +179,7 @@ ul {
 }
 
 .soft {
-   position: absolute;
+  position: absolute;
   width: 100%;
   height: 27px;
   left: 24px;
@@ -275,7 +275,7 @@ ul {
 .myRecent {
   display: grid;
   grid-template-columns: auto;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .recent {
@@ -358,7 +358,7 @@ overflow-x: hidden;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-flex: none;
+  flex: none;
   order: 1;
   flex-grow: 0;
 }
@@ -371,7 +371,7 @@ flex: none;
   position: relative;
   width: 100px;
   height: 40px;
-margin-top: -40px;
+  margin-top: -40px;
   margin-left: -30px;
 }
 
@@ -430,7 +430,7 @@ margin-top: -40px;
 }
 
 .profesional {
-   width: 375px;
+  width: 375px;
   display: grid;
   grid-template-columns: auto;
   background-image: url(../portfolio-desktop-version/images/Placeholder1.png);
@@ -790,7 +790,7 @@ margin-top: -40px;
   position: relative;
   width: 327px;
   height: 216px;
- left: 0;
+  left: 0;
   top: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -913,22 +913,22 @@ margin-top: -40px;
   .nav-container {
     width: 100vw;
     height: 10vh;
-}
+  }
 
   .uper-bar {
     display: none;
   }
   
-    .time {
-      display: none;
-    }
-
-    haftamu {
+  .time {
       display: none;
     }
   
+  .haftamu {
+     display: none;
+    }
+
   .allign {
-      display: none;
+    display: none;
   }
 
   .desktop-left {
@@ -966,7 +966,7 @@ margin-top: -40px;
     display: flex;
     padding: 8px;
     color: #fff;
-}
+  }
 
   .section1 {
     width: 100vw;
@@ -1043,7 +1043,7 @@ margin-top: -40px;
     margin-left: -330px;
     overflow: hidden;
     margin-right: 800px;
-}
+  }
 
   .multi-image {
     display: grid;
@@ -1052,9 +1052,9 @@ margin-top: -40px;
 
   .placeholder1 {
     display: none;
-}
+  }
 
-.vector-image-big {
+   .vector-image-big {
     display: flex;
     position: relative;
     width: 600px;
@@ -1097,7 +1097,7 @@ margin-top: -40px;
   .section3 {
     width: 100vw;
     height: 1201px;
-}
+  }
 
   .aboutMe {
     margin-top: 100px;
@@ -1109,7 +1109,7 @@ margin-top: -40px;
     left: 85.94%;
     right: 77.22%;
     bottom: 90.67%;
-}
+  }
 
   .me {
     margin-top: 44px;
@@ -1157,7 +1157,7 @@ margin-top: -40px;
   .frameworks {
     position: relative;
     margin-top: -200px;
-}
+  }
 
   .skills {
     position: relative;
@@ -1219,6 +1219,7 @@ margin-top: -40px;
   }
 }
 @keyframes animation-test {
+  
   0% {
     background-color: blue;
     transform: translateX(50%);
