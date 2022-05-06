@@ -1220,7 +1220,6 @@ ul {
 }
 
 @keyframes animation-test {
-
   0% {
     background-color: blue;
     transform: translateX(50%);
