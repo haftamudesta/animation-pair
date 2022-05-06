@@ -1165,76 +1165,77 @@ margin-top: -40px;
     margin-bottom: 0;
   }
 
-    .lastimage {
-      position: relative;
-      left: 90%;
-      right: 80.45%;
-      top: 84.33%;
-      bottom: -25.14%;
-    }
-  
-    .section4 {
-      width: 100vw;
-    }
-  
-    .section4Top {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    .always {
-      margin-top: 60px;
-      margin-left: 80px;
-    }
-  
-    .forms {
-      display: flex;
-      flex-direction: column;
-      width: 30%;
-      overflow: hidden;
-      margin-left: 100px;
-    }
-  
-    .input {
-      height: 18px;
-    }
-  
-    .images-last {
-      width: 100vw;
-      margin-top: -100px;
-      overflow: hidden;
-    }
-  
-    .touch {
-      margin-left: -50px;
-    }
-  
-    .social-media1 > ul {
-      align-items: center;
-      margin-left: 36%;
-    }
-  
-    .shape {
-      display: none;
-    }
+  .lastimage {
+    position: relative;
+    left: 90%;
+    right: 80.45%;
+    top: 84.33%;
+    bottom: -25.14%;
   }
-  
-  @keyframes animation-test {
-    0% {
-      background-color: blue;
-      transform: translateX(50%);
-    }
-    25% {
-      background-color: #3c3a39;
-      transform: translateY(50%);
-    }
-    75% {
-      background-color: goldenrod;
-      transform: translateX(0%);
-    }
-    100% {
-      background-color: red;
-      transform: translateY(0%);
-    }
+
+  .section4 {
+    width: 100vw;
   }
-  
+
+  .section4Top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .always {
+    margin-top: 60px;
+    margin-left: 80px;
+  }
+
+  .forms {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 100px;
+  }
+
+  .input {
+    height: 18px;
+  }
+
+  .images-last {
+    width: 100vw;
+    margin-top: -100px;
+    overflow: hidden;
+  }
+
+  .touch {
+    margin-left: -50px;
+  }
+
+  .social-media1 > ul {
+    align-items: center;
+    margin-left: 36%;
+  }
+
+  .shape {
+    display: none;
+  }
+}
+@keyframes animation-test {
+  0% {
+    background-color: blue;
+    transform: translateX(50%);
+  }
+
+  25% {
+    background-color: #3c3a39;
+    transform: translateY(50%);
+  }
+
+  75% {
+    background-color: goldenrod;
+    transform: translateX(0%);
+  }
+
+  100% {
+    background-color: red;
+    transform: translateY(0%);
+  }
+}
