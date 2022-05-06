@@ -918,14 +918,14 @@ ul {
   .uper-bar {
     display: none;
   }
-  
+
   .time {
-      display: none;
-    }
-  
+    display: none;
+  }
+
   .haftamu {
-     display: none;
-    }
+    display: none;
+  }
 
   .allign {
     display: none;
@@ -1054,7 +1054,7 @@ ul {
     display: none;
   }
 
-   .vector-image-big {
+  .vector-image-big {
     display: flex;
     position: relative;
     width: 600px;
@@ -1069,7 +1069,7 @@ ul {
     margin-left: -10px;
     overflow: hidden;
     margin-right: 450px;
-}
+  }
 
   .multi {
     margin-left: 660px;
@@ -1218,8 +1218,9 @@ ul {
     display: none;
   }
 }
+
 @keyframes animation-test {
-  
+
   0% {
     background-color: blue;
     transform: translateX(50%);
